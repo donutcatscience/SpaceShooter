@@ -11,6 +11,13 @@ inputFire = mouse_check_button_pressed(mb_left);
 //check to see if weapon fireing
 if (inputFire) fireWeapon = 1;
 
+//play sound and fire gun
+if (fireWeapon = 1){
+	audio_play_sound(sfx_bulletGun,1,false);
+	instance_create_layer(x,y,"Instances",obj_playerBullet);
+	fireWeapon = 0;
+}	
+
 //changes ship speed if boost is down
 if (inputBoost){
 	playerShipSpeed = playerBoostSpeed;

@@ -1,9 +1,8 @@
 /// @description Controlls spawn of friendly units
 
 //initiate variables
-enemySpawnX = 0; //used to make sure fruit isn't spawning on top of bombs in spawning for loops
-enemySpawnY = 0;
-randomObject = 0; //used in level 2 & 3 spawners to generate random fruit/bombs
+enemySpawnX = 0; //used to make sure ships aren't spawning on top of each other
+randomObject = 0; //
 
 
 // alarm 0 keeps 1 enemy spawned at all times

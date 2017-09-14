@@ -1,5 +1,11 @@
 /// @description Enemy AI Controls
 
+//play sound and fire gun
+if (fireWeapon = 1){
+	audio_play_sound(sfx_bulletGun,1,false);
+	instance_create_layer(x,y,"Instances",obj_playerBullet);
+	fireWeapon = 0;
+}
 
 //horizontal collision check 
 if (moveX != 0){

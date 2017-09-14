@@ -14,10 +14,4 @@ else frameStart = 5; //reset back to start animation
 //checks movement of ship and draws animation accordingly
 draw_sprite_ext(sprite_index, frameStart, x,y,obj_gameController.enemyShipScale, 
 				obj_gameController.enemyShipScale,1,c_white,1);
-
-//play sound and fire gun
-if (fireWeapon = 1){
-	audio_play_sound(sfx_bulletGun,1,false);
-	instance_create_layer(x,y,"Instances",obj_playerBullet);
-	fireWeapon = 0;
-}		
+		
