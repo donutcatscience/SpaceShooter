@@ -10,4 +10,7 @@ frameStart = 5;
 fireWeapon = 0;
 bulletSpeed = 10;
 
+//shoot test alarm
+alarm_set(0,60);
+
 

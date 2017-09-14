@@ -95,6 +95,22 @@
             }
         },
         {
+            "Key": "1fb34fda-4e5a-4427-a621-4cdfa42b368a",
+            "Value": {
+                "id": "3a9cf8c4-1703-4def-9159-d83bad95ca22",
+                "resourcePath": "objects\\obj_playerExplode\\obj_playerExplode.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2283f30a-0998-4428-8631-00ef01a7c0bf",
+            "Value": {
+                "id": "d78af5a6-9e78-4c24-a84f-98c707fe7e19",
+                "resourcePath": "objects\\obj_playerLives\\obj_playerLives.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "23c21c53-2b80-4d25-8b1b-239e7626158f",
             "Value": {
                 "id": "21e5dd84-3342-471c-9b93-252d5c5cd2d9",

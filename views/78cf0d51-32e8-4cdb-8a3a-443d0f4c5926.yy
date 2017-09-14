@@ -5,7 +5,8 @@
     "name": "78cf0d51-32e8-4cdb-8a3a-443d0f4c5926",
     "children": [
         "a1a52bcf-b631-492c-ae23-3adeb78b0b3e",
-        "ce7ee157-2844-4a5c-a1b3-a19c6f23d544"
+        "ce7ee157-2844-4a5c-a1b3-a19c6f23d544",
+        "1fb34fda-4e5a-4427-a621-4cdfa42b368a"
     ],
     "filterType": "GMObject",
     "folderName": "Friendly",

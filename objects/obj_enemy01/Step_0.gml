@@ -3,7 +3,7 @@
 //play sound and fire gun
 if (fireWeapon = 1){
 	audio_play_sound(sfx_bulletGun,1,false);
-	instance_create_layer(x,y,"Instances",obj_playerBullet);
+	instance_create_layer(x,y,"Instances",obj_enemyBullet1);
 	fireWeapon = 0;
 }
 
