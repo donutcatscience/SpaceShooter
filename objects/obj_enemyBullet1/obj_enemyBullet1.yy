@@ -1,28 +1,28 @@
 {
-    "id": "e1015f31-3aac-4cf8-80d7-f693dc5ec74d",
+    "id": "7002223c-06fc-4c2f-b243-6e7efb3a7474",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enemySpawn",
+    "name": "obj_enemyBullet1",
     "eventList": [
         {
-            "id": "782b369c-41bb-483f-b4f0-6ddf77fab030",
+            "id": "8c833f5c-925a-4218-b1df-fc659fea6d41",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 7,
+            "m_owner": "7002223c-06fc-4c2f-b243-6e7efb3a7474"
+        },
+        {
+            "id": "197be630-622f-46f5-a490-f577abc4c62d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "e1015f31-3aac-4cf8-80d7-f693dc5ec74d"
-        },
-        {
-            "id": "7f6906d1-007c-48c1-8009-92a2069f93a6",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "e1015f31-3aac-4cf8-80d7-f693dc5ec74d"
+            "m_owner": "7002223c-06fc-4c2f-b243-6e7efb3a7474"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -41,6 +41,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": false
+    "spriteId": "dd7a0048-719a-40ee-bbfd-5a7720a69fd9",
+    "visible": true
 }

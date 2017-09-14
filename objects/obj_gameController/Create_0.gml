@@ -3,7 +3,8 @@
 //initiate variables
 gameState = 0;
 gameInProgress = 0;
-shipScale = .6;
+playerShipScale = .6;
+enemyShipScale = .4;
 diagonalPenalty = 1.2;
 
 //Lets get this music going
