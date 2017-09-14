@@ -7,6 +7,7 @@ if (gameState = 1) && (gameInProgress = 0){
 	gameInProgress = 1;
 }
 
+//checks gamestate/progress/lives to reset the game if the player is out of lives
 if (gameState = 1) && (gameInProgress = 1) && (lives = 0) {
 	instance_destroy(all);
 	instance_create_layer(0,0,layer, obj_gameController);
