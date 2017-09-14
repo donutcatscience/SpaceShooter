@@ -4,6 +4,7 @@
 gameState = 0;
 gameInProgress = 0;
 shipScale = .6;
+diagonalPenalty = 1.2;
 
 //Lets get this music going
 audio_play_sound(mus_background, 1, true);

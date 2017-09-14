@@ -6,6 +6,10 @@ inputRight= max(keyboard_check(vk_right), keyboard_check(ord("D")), 0);
 inputUp = max(keyboard_check(vk_up), keyboard_check(ord("W")), 0);
 inputDown = max(keyboard_check(vk_down), keyboard_check(ord("S")), 0);
 inputBoost = keyboard_check(vk_shift);
+inputFire = mouse_check_button_pressed(mb_left);
+
+//check to see if weapon fireing
+if (inputFire) fireWeapon = 1;
 
 //changes ship speed if boost is down
 if (inputBoost){
@@ -21,11 +25,19 @@ moveY = 0;
 moveX = (inputRight - inputLeft) * playerShipSpeed
 moveY = (inputDown - inputUp) * playerShipSpeed
 
+//tests to see if player is moving diagonaly and incures a penalty to prevent faster movement
+if ((abs(moveX) > 0) && ((abs(moveY) > 0))) { 
+	playerShipSpeed = playerShipSpeed / obj_gameController.diagonalPenalty ;
+	moveX = (inputRight - inputLeft) * playerShipSpeed
+	moveY = (inputDown - inputUp) * playerShipSpeed
+}
+
+
 //horizontal collision check 
 if (moveX != 0){
-	if (place_meeting(x + moveX, y, obj_wall)){
+	if (place_meeting((x + moveX), y, obj_playerWall)){
 		repeat (abs(moveX)){
-			if (!place_meeting(x + sign(moveX), y, obj_wall)){
+			if (!place_meeting((x + sign(moveX)), y, obj_playerWall)){
 				x += sign(moveX);
 			}
 			else {
@@ -36,12 +48,12 @@ if (moveX != 0){
 	}
 }
 
-//horizontal collision check 
+//verticle collision check 
 if (moveY != 0){
-	if (place_meeting(x, y + moveY , obj_wall)){
+	if (place_meeting(x, (y + moveY) , obj_playerWall)){
 		repeat (abs(moveY)){
-			if (!place_meeting(x, y + sign(moveY), obj_wall)){
-				x += sign(moveY);
+			if (!place_meeting(x, (y + sign(moveY)), obj_playerWall)){
+				y += sign(moveY);
 			}
 			else {
 				break;

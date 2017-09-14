@@ -2,7 +2,7 @@
     "id": "1601bb88-afdf-4da0-92da-21df02b9e166",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_wall",
+    "name": "obj_playerWall",
     "eventList": [
         
     ],
