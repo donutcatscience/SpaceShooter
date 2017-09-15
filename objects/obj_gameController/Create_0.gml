@@ -4,6 +4,7 @@
 //initiate variables
 gameState = 0; //  -2 credits, -1 restart game, 0 new game, 1 game running
 gameInProgress = 0; //helps game display track if a game is currently being played
+gameRestart = 0;
 playerShipScale = .6; //reduces player ship size with code
 enemyShipScale = .4; //reduces enemy ship size with code
 diagonalPenalty = 1.2; //penalty for moving diagonaly so that it's not an advantage 

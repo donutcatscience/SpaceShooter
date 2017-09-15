@@ -1,8 +1,8 @@
 {
-    "id": "bcd7f6d6-24e4-4270-b021-e76a90b775ec",
+    "id": "1fdc3190-b2f5-48da-ab8b-264f8400b5bc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_playerScore",
+    "name": "obj_gameOver",
     "eventList": [
         
     ],
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "5f979585-c22c-4684-9247-7849f469c3d9",
+    "spriteId": "838bd34f-38ad-44dd-b7d0-8c534960ec60",
     "visible": true
 }
