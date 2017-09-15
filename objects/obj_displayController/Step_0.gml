@@ -9,11 +9,12 @@ if (obj_gameController.gameState = -2) { //credits
 if (obj_gameController.gameState = -1){ //game over
 	instance_destroy(obj_playerScore);
 	instance_destroy(obj_scoreValue);
+	gameRestart = 1;
 	instance_create_layer(room_width/2,room_height/2,"Display", obj_pressEnter);
 	instance_create_layer(room_width/2,((room_height/2) - 200),"Display", obj_gameOver);
 	instance_create_layer(room_width/2,((room_height/2) + 150),"Display", obj_playerScore);
 	instance_create_layer(room_width/2,((room_height/2) + 200),"Display", obj_scoreValue);
-	gameRestart = 1;
+	
 }
 
 if (obj_gameController.gameState = 0){ //active game
