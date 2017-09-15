@@ -9,6 +9,8 @@ enemyShipScale = .4; //reduces enemy ship size with code
 diagonalPenalty = 1.2; //penalty for moving diagonaly so that it's not an advantage 
 						//necessary because of the way I have movement coded.
 
+//**lives variable are kept in: restartGame, pressEnter, pressCredits**
+
 //Lets get this music going
 audio_play_sound(mus_background, 1, true);
 

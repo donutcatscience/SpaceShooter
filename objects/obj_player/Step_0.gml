@@ -14,8 +14,14 @@ if (inputFire) fireWeapon = 1;
 //play sound and fire gun
 if (fireWeapon = 1){
 	audio_play_sound(sfx_bulletGun,1,false);
-	instance_create_layer(x,y,"Instances",obj_playerBullet);
-	fireWeapon = 0;
+	var xx, yy;
+	xx = mouse_x;
+	yy = mouse_y;
+	with (instance_create_layer(x,y,"Instances",obj_playerBullet))
+		{
+		direction = point_direction(x, y, xx, yy);
+   }
+   fireWeapon = 0;
 }	
 
 //changes ship speed if boost is down

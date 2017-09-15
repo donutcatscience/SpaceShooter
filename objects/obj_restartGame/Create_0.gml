@@ -1,6 +1,6 @@
 /// @description Starts the game
 audio_stop_all();
-lives = 2; //sets built in variable for lives
+lives = 1; //sets built in variable for lives
 score = 0; //sets score
 
 instance_destroy(obj_pressCredits);
