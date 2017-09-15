@@ -8,4 +8,7 @@ randomObject = 0; //
 // alarm 0 keeps 1 enemy spawned at all times
 alarm_set(0,30);
 
+// alarm 1 creates more enemies
+alarm_set(1,120);
+
 

@@ -3,8 +3,14 @@
 //play sound and fire gun
 if (fireWeapon = 1){
 	audio_play_sound(sfx_bulletGun,1,false);
-	instance_create_layer(x,y,"Instances",obj_enemyBullet1);
-	fireWeapon = 0;
+	var xx, yy;
+	xx = obj_player.x;
+	yy = obj_player.y;
+	with (instance_create_layer(x,y,"Instances",obj_enemyBullet1))
+		{
+		direction = point_direction(x, y, xx, yy);
+   }
+   fireWeapon = 0;
 }
 
 //horizontal collision check 

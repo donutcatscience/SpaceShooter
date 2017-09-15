@@ -24,7 +24,7 @@ if (fireWeapon = 1){
    fireWeapon = 0;
 }	
 
-//changes ship speed if boost is down
+//changes ship speed if shift key is down
 if (inputBoost){
 	playerShipSpeed = playerBoostSpeed;
 }

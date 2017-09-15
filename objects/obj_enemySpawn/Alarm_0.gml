@@ -9,5 +9,5 @@ for (var i = 0; i < 2; i += 1) {
 		until (place_free(enemySpawnX,enemySpawnY)); // loops until free space is found
 		if !instance_exists(obj_enemy01){
 			instance_create_layer(enemySpawnX,enemySpawnY,"Instances",obj_enemy01);}
-		else alarm_set(0,120); //checks for existance of enemy every 2 seconds
+		else alarm_set(0,30); //checks for existance of enemy every 2 seconds
 }
