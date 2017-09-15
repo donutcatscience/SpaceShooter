@@ -1,0 +1,9 @@
+Combo for game loop
+
+New Game =    GS 0, GP 0, GR 0, L2
+Press Start = GS 1, GP 0, GR 0, L2
+Game Active = GS 1, GP 1, GR 0, L2
+Died        = GS 1, GP 1, GR 0, L0
+Check		= GS -1, GP 0, GR 0, L0
+Restart		= GS 1, GP 0, GR 1, L2
+New Game	= GS 0, GP 0, GR 0, L2

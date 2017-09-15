@@ -1,6 +1,10 @@
 /// @description Gamestate Checks
 
 
+/* Old code from trying to manage game states inside the game controller instead of 
+	using multiple objects
+	
+	
 //checks gamestate/progress/lives to reset the game if the player is out of lives
 if (gameState = 1) && (gameInProgress = 0) && (gameRestart = 1) {
 	instance_activate_layer("Instances");
@@ -16,10 +20,10 @@ if (gameState = 1) && (gameInProgress = 0) && (gameRestart = 0) {
 }
 
 //checks gamestate/progress/lives to reset the game if the player is out of lives
-if (lives = 0) && (gameRestart = 0) && (gameState = 1) {
+if(lives = 0) && (gameRestart = 0) && (gameState = 1) {
 	gameState = -1
 	gameInProgress = 0;
-	lives = 2
+	lives = 1
 	instance_deactivate_layer("Instances")	
 }
 

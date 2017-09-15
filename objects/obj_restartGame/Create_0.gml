@@ -2,7 +2,6 @@
 audio_stop_all();
 lives = 2; //sets built in variable for lives
 score = 0; //sets score
-obj_displayController.restart = 1;
 
 instance_destroy(obj_pressCredits);
 instance_destroy(obj_gameOver);
@@ -15,5 +14,3 @@ instance_create_layer(1,1,"Instances", obj_friendlySpawn);
 instance_create_layer(1,1,"Instances", obj_enemySpawn);
 
 audio_play_sound(mus_background,1,true);
-
-instance_destroy();

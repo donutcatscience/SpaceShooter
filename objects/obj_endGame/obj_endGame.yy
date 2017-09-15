@@ -1,28 +1,18 @@
 {
-    "id": "a8ac872e-1446-4809-b721-f5d7eb7ec836",
+    "id": "e43c5d78-8437-4b9f-88f6-39f3dbb3ed33",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_displayController",
+    "name": "obj_endGame",
     "eventList": [
         {
-            "id": "a593bc40-1d0a-4ac5-b1b8-a649a41780a4",
+            "id": "0219877c-1dd2-4936-886b-a28515a2f2dd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "a8ac872e-1446-4809-b721-f5d7eb7ec836"
-        },
-        {
-            "id": "6e6d345d-00ee-477c-a15a-69bcf558652d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "a8ac872e-1446-4809-b721-f5d7eb7ec836"
+            "m_owner": "e43c5d78-8437-4b9f-88f6-39f3dbb3ed33"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

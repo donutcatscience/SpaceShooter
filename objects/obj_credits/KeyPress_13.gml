@@ -1,5 +1,6 @@
 /// @description Returns to Start Game
 
-//set gamestate to running = 0 and destroy menus
-obj_gameController.gameState = 0;
+//
+instance_create_layer(room_width/2,room_height/2,"Display", obj_pressEnter);
+instance_create_layer(room_width/2,((room_height/2) + 100),"Display", obj_pressCredits); 
 instance_destroy();
