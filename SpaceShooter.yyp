@@ -135,14 +135,6 @@
             }
         },
         {
-            "Key": "2283f30a-0998-4428-8631-00ef01a7c0bf",
-            "Value": {
-                "id": "d78af5a6-9e78-4c24-a84f-98c707fe7e19",
-                "resourcePath": "objects\\obj_playerLives\\obj_playerLives.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "23c21c53-2b80-4d25-8b1b-239e7626158f",
             "Value": {
                 "id": "21e5dd84-3342-471c-9b93-252d5c5cd2d9",
@@ -435,14 +427,6 @@
             "Value": {
                 "id": "b048d174-a0e7-41d5-802e-727383979ad2",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "a2b4770e-be8e-40c3-97db-155af92088e1",
-            "Value": {
-                "id": "c82a2ed8-101c-4d88-a01e-52e9ee65409a",
-                "resourcePath": "objects\\obj_restartGame\\obj_restartGame.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -7,4 +7,5 @@ if (lives = 0){
 	instance_destroy(obj_enemy01);
 	
 	instance_create_layer(0,0,"Display",obj_endGame);
+	lives = 1;
 }

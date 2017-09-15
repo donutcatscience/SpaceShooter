@@ -42,5 +42,6 @@ if (obj_gameController.gameState = 1) { //active game
 	instance_create_layer(40,40,"display",obj_playerScore);
 	instance_create_layer(0,0,"display",obj_scoreValue);
 }
+*/
 
      

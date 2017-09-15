@@ -1,7 +1,5 @@
 /// @description 
 
-lives = 1; //keeps obj_displayController from looping in the step event
-
 //destroys left over assets
 instance_destroy(obj_pressCredits);
 instance_destroy(obj_gameOver);

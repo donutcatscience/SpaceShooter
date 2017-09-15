@@ -26,4 +26,4 @@ if(lives = 0) && (gameRestart = 0) && (gameState = 1) {
 	lives = 1
 	instance_deactivate_layer("Instances")	
 }
-
+*/
