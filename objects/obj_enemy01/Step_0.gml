@@ -3,8 +3,8 @@
 //play sound and fire gun
 if (fireWeapon = 1){
 	audio_play_sound(sfx_bulletGun,1,false);
-	var xx, yy;
-	xx = obj_player.x;
+	var xx, yy; 
+	xx = obj_player.x; //saves player's current location to fire at
 	yy = obj_player.y;
 	with (instance_create_layer(x,y,"Instances",obj_enemyBullet1))
 		{

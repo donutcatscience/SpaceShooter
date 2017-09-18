@@ -1,6 +1,6 @@
 /// @description Basic Enemy Ship
 
-//Ship Speeds
+//Ship Base Stats
 enemyShipSpeed = 0;
 enemyNormalSpeed = 5;
 enemyBoostSpeed = 8;
