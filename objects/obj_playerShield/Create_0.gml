@@ -1,4 +1,9 @@
 /// @description initialize shield variables
 
-shieldOn = 0;
-shieldEnergy = 180;
+//changes size of shield
+image_xscale = 1.5;
+image_yscale = 1.5;
+
+//sets this shield to player ships current 
+currentShieldEnergy = obj_player.currentShieldEnergy;
+

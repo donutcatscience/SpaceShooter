@@ -10,9 +10,13 @@ inputFire = mouse_check_button_pressed(mb_left);
 inputShield = keyboard_check(vk_tab);
 
 //check to see if shield is on and has energy
-if ((inputShield) && (shieldEnergy > 0)) 
-	instance_create_layer(obj_player.x, (obj_player.y + 15), "Instance", obj_playerShield); 
-
+if ((inputShield) && (shieldOn = 0) && (currentShieldEnergy > 60)) {
+	shieldOn = 1;
+	instance_create_layer(obj_player.x, (obj_player.y - 50), "Instances", obj_playerShield);
+}
+else if (!instance_exists(obj_playerShield) && (currentShieldEnergy < shieldEnergyMax)) {
+	++currentShieldEnergy;
+}
 
 //check to see if weapon fireing
 if (inputFire) { //add ammo check
