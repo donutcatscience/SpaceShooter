@@ -10,7 +10,7 @@ inputFire = mouse_check_button_pressed(mb_left);
 inputShield = keyboard_check(vk_tab);
 
 //check to see if shield is on and has energy
-if ((inputShield) && (shieldOn = 0) && (currentShieldEnergy > 60)) {
+if ((inputShield) && (shieldOn = 0) && (currentShieldEnergy > 60)) { //
 	shieldOn = 1;
 	instance_create_layer(obj_player.x, (obj_player.y - 50), "Instances", obj_playerShield);
 }
