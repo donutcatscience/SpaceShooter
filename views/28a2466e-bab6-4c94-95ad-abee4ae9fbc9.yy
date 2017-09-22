@@ -8,7 +8,8 @@
         "89f6306c-3447-4b75-bcc6-0b82be1b5bce",
         "a0b6305a-8ed1-45e9-b80a-c177b019cf99",
         "0ff9ec52-d24b-4e4f-adcf-27a12bb62288",
-        "0f3dde2a-5fcd-4d06-b99d-ec31605cfeb9"
+        "0f3dde2a-5fcd-4d06-b99d-ec31605cfeb9",
+        "efac420f-0e0c-4bdd-b441-4509fc700b85"
     ],
     "filterType": "GMSprite",
     "folderName": "SFX",
